@@ -22,14 +22,14 @@ def place_ships(grid):
 
 #register location fired upon
 def place_shot():
-    row = input("Enter a Number 1-10 for the vertical coordinate:  ")
+    row = input("Enter a Number 1-10 for the vertical coordinate: \n ")
     while not (row.isdigit() and (1 <= int(row) <= 10)):
         print("Invalid input. Please enter a number between 1 and 10.")
-        row = input("Enter a Number 1-10 for the vertical coordinate:  ")
-    column = input("Enter a Number 1-10 for the horizontal coordinate:  ")
+        row = input("Enter a Number 1-10 for the vertical coordinate: \n ")
+    column = input("Enter a Number 1-10 for the horizontal coordinate: \n ")
     while not (column.isdigit() and (1 <= int(column) <= 10)):
         print("Invalid input. Please enter a number between 1 and 10.")
-        column = input("Enter a Number 1-10 for the horizontal coordinate:  ")
+        column = input("Enter a Number 1-10 for the horizontal coordinate: \n ")
     return int(row) - 1, int(column) - 1
     
 
