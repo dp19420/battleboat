@@ -18,7 +18,7 @@ A simple Battleship game implemented in Python and deployed on Heroku.
 
 ### Running the Game
 
-The Game is deployd on Heroku at:"placeholder for url"
+The Game is deployd on Heroku at:["Heroku"](https://dashboard.heroku.com/apps/battleboat/deploy/github)
 
 ### Code
 
